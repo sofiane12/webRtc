@@ -1,0 +1,4 @@
+resources:
+  - namespace-asterix.yaml 
+  - web-deploy-jssip.yaml
+  - service-cluster-asterix.yaml  

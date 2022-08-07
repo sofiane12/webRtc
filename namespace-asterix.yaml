@@ -1,0 +1,92 @@
+apiVersion: v1
+items:
+- apiVersion: v1
+  kind: Namespace
+  metadata:
+    creationTimestamp: "2022-08-05T08:48:51Z"
+    labels:
+      kubernetes.io/metadata.name: kube-system
+    name: kube-system
+    resourceVersion: "13"
+    uid: 4c1e1fc8-82c4-4960-abc5-e09c9905dc3a
+  spec:
+    finalizers:
+    - kubernetes
+  status:
+    phase: Active
+- apiVersion: v1
+  kind: Namespace
+  metadata:
+    creationTimestamp: "2022-08-05T08:48:51Z"
+    labels:
+      kubernetes.io/metadata.name: kube-public
+    name: kube-public
+    resourceVersion: "20"
+    uid: bee76fc3-ec52-44af-b916-676df387c573
+  spec:
+    finalizers:
+    - kubernetes
+  status:
+    phase: Active
+- apiVersion: v1
+  kind: Namespace
+  metadata:
+    creationTimestamp: "2022-08-05T08:48:51Z"
+    labels:
+      kubernetes.io/metadata.name: kube-node-lease
+    name: kube-node-lease
+    resourceVersion: "27"
+    uid: e577f4a7-8a7c-4c6c-9d2b-5064a07532d4
+  spec:
+    finalizers:
+    - kubernetes
+  status:
+    phase: Active
+- apiVersion: v1
+  kind: Namespace
+  metadata:
+    creationTimestamp: "2022-08-05T08:48:51Z"
+    labels:
+      kubernetes.io/metadata.name: default
+    name: default
+    resourceVersion: "75"
+    uid: 5366c442-8dc8-4ec9-908f-71c4ddad66ee
+  spec:
+    finalizers:
+    - kubernetes
+  status:
+    phase: Active
+- apiVersion: v1
+  kind: Namespace
+  metadata:
+    annotations:
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"v1","kind":"Namespace","metadata":{"annotations":{},"name":"drupal"},"status":{"phase":"Active"}}
+    creationTimestamp: "2022-08-05T08:51:01Z"
+    labels:
+      kubernetes.io/metadata.name: drupal
+    name: drupal
+    resourceVersion: "498"
+    uid: a006ca06-c166-49b2-97d6-2a42de6b2484
+  spec:
+    finalizers:
+    - kubernetes
+  status:
+    phase: Active
+- apiVersion: v1
+  kind: Namespace
+  metadata:
+    creationTimestamp: "2022-08-06T05:32:13Z"
+    labels:
+      kubernetes.io/metadata.name: asterix
+    name: asterix
+    resourceVersion: "10618"
+    uid: 15aedc3e-824d-413c-9512-8114a8e4d62f
+  spec:
+    finalizers:
+    - kubernetes
+  status:
+    phase: Active
+kind: List
+metadata:
+  resourceVersion: ""
